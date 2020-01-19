@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<ADICO_test_1>
+<TEXT><![CDATA[§ 37 
+Senat 
+
+1. Członkiem Senatu może być osoba spełniająca warunki wskazane 
+w art. 29 ust. 4 Ustawy. 
+
+2. Kadencja Senatu trwa cztery lata i rozpoczyna się w dniu 1 września roku 
+wyborów Rektora. Czas trwania kadencji członków Senatu, o których mowa w § 38 
+ust. 1 pkt 2 lit. c, określa odpowiednio regulamin samorządu studenckiego 
+i regulamin samorządu doktorantów. 
+
+§ 38 
+Skład Senatu 
+
+1. W skład Senatu wchodzą: 
+1) Rektor, jako przewodniczący; 
+2) przedstawiciele: 
+a) profesorów i profesorów uczelni, 
+b) pozostałych pracowników Uniwersytetu, 
+c) studentów i doktorantów. 
+
+2. Liczbę przedstawicieli profesorów i profesorów uczelni określa Uczelniana 
+Komisja Wyborcza jako liczbę wydziałów powiększoną o najmniejszą liczbę całkowitą 
+nie mniejszą niż 1/3 liczby wydziałów. W przypadku, gdy liczba wydziałów jest 
+mniejsza niż 15, liczba przedstawicieli profesorów i profesorów uczelni wynosi 20. 
+
+3. Liczba członków Senatu jest największą liczbą nieparzystą nie większą niż 
+dwukrotność liczby przedstawicieli profesorów i profesorów uczelni. 
+
+4. Liczba przedstawicieli pozostałych pracowników Uniwersytetu, w tym 
+nauczycieli zatrudnionych na stanowiskach innych niż wymienione w ust. 1 pkt 2 lit. a 
+oraz pracowników niebędących nauczycielami akademickimi, stanowi nie mniej niż 
+25% składu Senatu, przy czym liczba pracowników niebędących nauczycielami 
+akademickimi stanowi najmniejszą liczbę całkowitą nie mniejszą niż 5% składu 
+Senatu. 
+
+5. Liczba przedstawicieli studentów i doktorantów jest najmniejszą liczbą 
+całkowitą nie mniejszą niż 20% składu Senatu. Liczbę przedstawicieli studentów 
+i przedstawicieli doktorantów ustala się proporcjonalnie do liczebności tych grup na 
+Uniwersytecie, z tym że każda z tych grup reprezentowana jest przez co najmniej 
+jednego przedstawiciela. Liczbę tych przedstawicieli określa Uczelniana Komisja 
+Wyborcza. 
+
+6. W posiedzeniach Senatu uczestniczą z głosem doradczym prorektorzy, 
+kanclerz, kwestor, osoba reprezentująca system biblioteczno-informacyjny, oraz 
+przedstawiciele związków zawodowych działających na Uniwersytecie po jednym 
+z każdego związku. 
+]]></TEXT>
+<TAGS>
+<SEPARATOR id="S0" spans="14~16" text="1."  />
+<SEPARATOR id="S1" spans="106~108" text="2."  />
+<SEPARATOR id="S2" spans="198~199" text="."  />
+<SEPARATOR id="S3" spans="395~397" text="1."  />
+<SEPARATOR id="S4" spans="586~588" text="2."  />
+<SEPARATOR id="S5" spans="784~785" text="."  />
+<SEPARATOR id="S6" spans="911~913" text="3."  />
+<SEPARATOR id="S7" spans="1059~1061" text="4."  />
+<SEPARATOR id="S8" spans="1460~1462" text="5."  />
+<SEPARATOR id="S9" spans="1579~1580" text="."  />
+<SEPARATOR id="S10" spans="1805~1806" text="."  />
+<SEPARATOR id="S11" spans="1875~1877" text="6."  />
+<Attribute id="A1" spans="426~453" text="Rektor, jako przewodniczący"  />
+<Attribute id="A2" spans="652~680" text="Uczelniana  Komisja Wyborcza"  />
+<Attribute id="A3" spans="1932~1943" text="prorektorzy"  />
+<Attribute id="A4" spans="1946~1954" text="kanclerz"  />
+<Attribute id="A5" spans="1956~1963" text="kwestor"  />
+<Attribute id="A6" spans="1965~2018" text="osoba reprezentująca system biblioteczno-informacyjny"  />
+<Attribute id="A7" spans="2026~2120" text="przedstawiciele związków zawodowych działających na Uniwersytecie po jednym  z każdego związku"  />
+<Attribute id="A8" spans="43~102" text="osoba spełniająca warunki wskazane  w art. 29 ust. 4 Ustawy"  />
+<Attribute id="A9" spans="459~582" text="przedstawiciele:  a) profesorów i profesorów uczelni,  b) pozostałych pracowników Uniwersytetu,  c) studentów i doktorantów"  />
+<Deontic id="D0" spans="34~38" text="może"  />
+<aIm id="a0" spans="39~42" text="być"  />
+<aIm id="a1" spans="125~129" text="trwa"  />
+<aIm id="a2" spans="283~290" text="określa"  />
+<aIm id="a3" spans="413~420" text="wchodzą"  />
+<aIm id="a4" spans="644~651" text="określa"  />
+<aIm id="a5" spans="898~904" text="wynosi"  />
+<aIm id="a7" spans="937~941" text="jest"  />
+<aIm id="a8" spans="1274~1281" text="stanowi"  />
+<aIm id="a11" spans="1645~1655" text="ustala się"  />
+<aIm id="a12" spans="1835~1842" text="określa"  />
+<aIm id="a13" spans="1901~1912" text="uczestniczą"  />
+<aIm id="a14" spans="1510~1514" text="jest"  />
+<oBject id="o0" spans="109~124" text="Kadencja Senatu"  />
+<oBject id="o1" spans="200~281" text="Czas trwania kadencji członków Senatu, o których mowa w § 38  ust. 1 pkt 2 lit. c"  />
+<oBject id="o2" spans="303~335" text="regulamin samorządu studenckiego"  />
+<oBject id="o3" spans="339~370" text="regulamin samorządu doktorantów"  />
+<oBject id="o4" spans="398~412" text="W skład Senatu"  />
+<oBject id="o5" spans="589~643" text="Liczbę przedstawicieli profesorów i profesorów uczelni"  />
+<oBject id="o6" spans="843~897" text="liczba przedstawicieli profesorów i profesorów uczelni"  />
+<oBject id="o7" spans="905~907" text="20"  />
+<oBject id="o8" spans="942~1055" text="największą liczbą nieparzystą nie większą niż  dwukrotność liczby przedstawicieli profesorów i profesorów uczelni"  />
+<oBject id="o9" spans="1062~1272" text="Liczba przedstawicieli pozostałych pracowników Uniwersytetu, w tym  nauczycieli zatrudnionych na stanowiskach innych niż wymienione w ust. 1 pkt 2 lit. a  oraz pracowników niebędących nauczycielami akademickimi"  />
+<oBject id="o10" spans="1282~1456" text="nie mniej niż  25% składu Senatu, przy czym liczba pracowników niebędących nauczycielami  akademickimi stanowi najmniejszą liczbę całkowitą nie mniejszą niż 5% składu  Senatu"  />
+<oBject id="o11" spans="1463~1509" text="Liczba przedstawicieli studentów i doktorantów"  />
+<oBject id="o12" spans="1581~1644" text="Liczbę przedstawicieli studentów  i przedstawicieli doktorantów"  />
+<oBject id="o13" spans="1807~1834" text="Liczbę tych przedstawicieli"  />
+<oBject id="o14" spans="1878~1900" text="W posiedzeniach Senatu"  />
+<oBject id="o15" spans="914~936" text="Liczba członków Senatu"  />
+<oBject id="o16" spans="1515~1579" text="najmniejszą liczbą  całkowitą nie mniejszą niż 20% składu Senatu"  />
+<aCtor id="aC6" spans="1843~1871" text="Uczelniana Komisja  Wyborcza"  />
+<aCtor id="aC7" spans="17~33" text="Członkiem Senatu"  />
+<ActivCondition id="Ac0" spans="144~198" text="rozpoczyna się w dniu 1 września roku  wyborów Rektora" RodzajAC="Time" />
+<ActivCondition id="Ac1" spans="786~841" text="W przypadku, gdy liczba wydziałów jest  mniejsza niż 15"  />
+<Method id="M0" spans="130~141" text="cztery lata"  />
+<Method id="M1" spans="291~302" text="odpowiednio"  />
+<Method id="M2" spans="681~784" text="jako liczbę wydziałów powiększoną o najmniejszą liczbę całkowitą  nie mniejszą niż 1/3 liczby wydziałów"  />
+<Method id="M3" spans="1656~1805" text="proporcjonalnie do liczebności tych grup na  Uniwersytecie, z tym że każda z tych grup reprezentowana jest przez co najmniej  jednego przedstawiciela"  />
+<Method id="M4" spans="1913~1931" text="z głosem doradczym"  />
+</TAGS>
+</ADICO_test_1>

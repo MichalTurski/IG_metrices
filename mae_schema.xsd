@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ADICO_test_1">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TEXT" type="xs:string" />
+        <xs:element name="TAGS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="SEPARATOR">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Attribute">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Deontic">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="aIm">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="oBject">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                  <xs:attribute name="Voice" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="aCtor">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="ActivCondition">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="RodzajAC" type="xs:string" use="optional" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" maxOccurs="unbounded" name="Method">
+                <xs:complexType>
+                  <xs:attribute name="id" type="xs:string" use="required" />
+                  <xs:attribute name="spans" type="xs:string" use="required" />
+                  <xs:attribute name="text" type="xs:string" use="required" />
+                  <xs:attribute name="komentarz" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
