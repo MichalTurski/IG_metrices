@@ -1,0 +1,7 @@
+category,correct_coverage_length,wrong_coverage_length,gs_coverage_length,app_coverage_length,app_coverage_perc,gs_coverage_perc
+Attribute,3858,30354,13386,34212,11.28,28.82
+Deontic,5,415,731,420,1.19,0.68
+SEPARATOR,10,786,1177,796,1.26,0.85
+aCtor,343,1559,14996,1902,18.03,2.29
+aIm,267,4933,6584,5200,5.13,4.06
+oBject,2231,3151,45845,5382,41.45,4.87
