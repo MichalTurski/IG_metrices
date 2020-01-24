@@ -46,8 +46,6 @@ class MAE_parser:
         anot_df = pd.concat(anot_dfs_list, sort=False).reset_index(drop=True)
         anot_df.sort_values(by=['begin'], inplace=True)
         anot_df.reset_index(drop=True, inplace=True)
-        # print(anot_df['end'].tail())
         anot_df, text_len, removed = self.__normalize_spans__(anot_df, mae_dict['TEXT'])
-        # print(anot_df['end'].tail())
         print(f'File {file_path} text length = {text_len}, removed = {removed}.')
         return anot_df

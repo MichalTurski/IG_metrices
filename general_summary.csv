@@ -1,7 +1,7 @@
-category,correct_coverage_length,wrong_coverage_length,gs_coverage_length,app_coverage_length,app_coverage_perc,gs_coverage_perc
-Attribute,4409,25068,11241,29477,14.96,39.22
-Deontic,16,353,617,369,4.34,2.59
-SEPARATOR,5,692,995,697,0.72,0.5
-aCtor,396,1255,12667,1651,23.99,3.13
-aIm,323,4166,5600,4489,7.2,5.77
-oBject,2572,2082,38886,4654,55.26,6.61
+category,correct_coverage_length,wrong_coverage_length,gs_coverage_length,app_coverage_length,precision,recall,F1
+Attribute,7322,22261,11711,29583,24.75,62.52,35.46
+Deontic,411,9,717,420,97.86,57.32,72.29
+SEPARATOR,0,58,566,58,0.0,0.0,
+aCtor,1049,643,12972,1692,62.0,8.09,14.31
+aIm,3694,1171,6336,4865,75.93,58.3,65.96
+oBject,4016,752,40006,4768,84.23,10.04,17.94
