@@ -23,6 +23,16 @@ class MAE_parser:
             df = pd.DataFrame(columns=[])
         return df
 
+    @staticmethod
+    def __normalize_spans__(anot_df, text):
+        removed_count = 0
+        for i, char in enumerate(text):
+            if not char.isalnum():
+                anot_df['begin'] = anot_df['begin'].apply(lambda val: val - 1 if val + removed_count > i else val)
+                anot_df['end'] = anot_df['end'].apply(lambda val: val - 1 if val + removed_count > i else val)
+                removed_count += 1
+        return anot_df, len(text) - removed_count, removed_count
+
     def parse_file(self, file_path):
         self.mae_schema.validate(file_path)
         mae_dict = self.mae_schema.to_dict(file_path)
@@ -36,4 +46,8 @@ class MAE_parser:
         anot_df = pd.concat(anot_dfs_list, sort=False).reset_index(drop=True)
         anot_df.sort_values(by=['begin'], inplace=True)
         anot_df.reset_index(drop=True, inplace=True)
+        # print(anot_df['end'].tail())
+        anot_df, text_len, removed = self.__normalize_spans__(anot_df, mae_dict['TEXT'])
+        # print(anot_df['end'].tail())
+        print(f'File {file_path} text length = {text_len}, removed = {removed}.')
         return anot_df
